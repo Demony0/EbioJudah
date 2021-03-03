@@ -89,6 +89,7 @@
 	font-size:1.3rem;
 	font-weight:bold;
 	pointer-events:none;
+	text-align:center;
 }
 
 .cardContainer .cardWrapper .front{
