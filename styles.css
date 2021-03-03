@@ -1,0 +1,160 @@
+ *{
+	 padding:0;
+	 margin:0;
+	 box-sizing:border-box; 
+ }
+ 
+ body{
+	 background:#1D224C;
+	 width:100%;
+	 overflow:hidden;
+ }
+ 
+.circleOne{
+	clip-path:circle(50%);
+	 background:linear-gradient(red,yellow);
+	 position:fixed;
+	 width:50rem;
+	 height:50rem;
+	 transform:translateX(-50%) translateY(-60%);
+	 z-index:-1;
+	 left:0;
+	bottom:0;
+ }
+ 
+ .circleTwo{
+	clip-path:circle(50%);
+	 background:linear-gradient(violet,darkred);
+	 position:fixed;
+	 width:20rem;
+	 height:20rem;
+	 transform:translateX(30%) translateY(50%);
+	 z-index:-1;
+	right:0;
+	bottom:0;
+ }
+ 
+.cardContainer{
+	width:100%;
+	height:100%;
+	display:flex;
+	position:absolute;
+	justify-content:center;
+	align-items:center;
+	
+}
+
+.cardWrapper{
+	background:rgba(210,30,30,.5);
+	width:20rem;
+	height:30rem;
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	border-radius:2%;
+	box-shadow:3px 3px 5px rgba(0,0,0,.5);
+}
+
+.cardWrapper .card{
+	position:relative;
+	display:flex;
+	justify-content:space-around;
+	align-items:center;
+	flex-direction:column;
+}
+
+.cardWrapper .card ol li{
+	list-style:none;
+	font-size:1.2rem;
+	font-weight:bold;
+	margin:10px 0;
+	
+}
+
+.cardWrapper .card ol li a{
+	text-decoration:none;
+	text-shadow:1px 1px 1px  #1D224C;
+	color:white;
+	
+}
+
+.cardWrapper .card ol li a:hover{
+	text-shadow:1px 1px 1px black ;
+	color:#1D224C;
+	transition:all .5s ease-in-out;
+}
+
+.cardWrapper .card p{
+	margin:3rem 0;
+	font-size:1.3rem;
+	font-weight:bold;
+	pointer-events:none;
+}
+
+.cardContainer .cardWrapper .front{
+	position:relative;
+	width:100%;
+	height:100%;
+	z-index:2;
+	box-shadow:3px 3px 5px rbga(250,250,250,.5);
+}
+
+.cardContainer .cardWrapper .front img{
+	position:absolute;
+	width:100%;
+	height:100%;
+	object-fit:cover;
+	z-index:1;
+	border-radius:5px;
+	box-shadow:1px 3px 5px rgba(0,0,0,.5);
+	transform-style:preserve-3d;
+	transform-origin:left;
+	transition:1.3s;
+	background:black;
+}
+
+h5 a{
+	text-decoration:none;
+	Color:yellow;
+}
+
+h5 a:hover{
+	color:Blue;
+}
+
+.cardContainer .cardWrapper:hover{
+	transform:translateX(50%);
+}
+
+.cardContainer .cardWrapper .front:hover img{
+	transform:rotateY(-180deg);
+}
+
+@media only screen and (min-device-width:320px) and (max-device-width:480px){
+	.cardWrapper{
+	background:rgba(210,30,30,.5);
+	width:15rem;
+	height:15rem;
+	}
+	
+	.cardContainer .cardWrapper:hover{
+	transform:translateY(0);
+	}
+
+	.cardContainer .cardWrapper .front:hover img{
+	transform:rotateY(-90deg);
+	}
+	
+	.cardWrapper .card ol li{
+	font-size:1rem;
+	margin:2px 0;
+	}
+	
+	.cardWrapper .card p{
+	margin:1rem 0;
+	font-size:1rem;
+	font-weight:bold;
+	pointer-events:none;
+	}
+}
+

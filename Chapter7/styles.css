@@ -1,0 +1,139 @@
+*{
+	padding:0;
+	margin:0;
+	box-sizing:border-box;
+	background:#1D224C;
+	color:white;
+}
+
+body{
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	flex-direction:column;
+	width:100%;
+}
+
+table{
+	display:flex;
+	justify-content:space-arond;
+	flex-wrap:wrap;
+	align-items:center;
+	margin:0 2%;
+	width:96%;
+}
+
+td{
+	height:3.5rem;
+}
+
+#Sakto{
+	background:url(../Images/sakto.jpg);
+}
+
+#Radyo{
+	background:url(../Images/RadyoPatrolBalita.jpg);
+}
+
+#Kabayan{
+	background:url(../Images/kabayan.jfif);
+}
+
+#withYou{
+	background:url(../Images/TomorrowWithYou.jfif);
+}
+
+#Blockbusters{
+	background:url(../Images/KamamilyaBlockbusters.jfif);
+}
+
+
+#Show{
+	background:url(../Images/ItShowTime.jpg);
+}
+
+#bean{
+	background:url(../Images/Mr.bean.jpg);
+}
+
+#pop{
+	background:url(../Images/popBabies.jpg);
+}
+
+#team{
+	background:url(../Images/TeamYey.jpg);
+}
+
+#swak{
+	background:url(../Images/SwaknaSwak.jfif);
+}
+
+#fit{
+	background:url(../Images/TeamFitfil.jpg);
+}
+
+#super{
+	background:url(../Images/KALDEROKE.png);
+}
+
+#abs{
+	background:url(../Images/Kapamilya.png);
+}
+
+
+#heal{
+	background:url(../Images/TheHealingEucharist.png);
+}
+
+#Wikaharian{
+	background:url(../Images/Wikaharian.jpg);
+}
+
+#MathDali{
+	background:url(../Images/MathDali.jpg);
+}
+
+#bayani{
+	background:url(../images/bayani.jpg);
+}
+
+#Hiraya{
+	background:url(../images/HirayaManawari.jfif);
+}
+
+#g{
+	background:url(../images/GDiarie.jpg);
+}
+
+#g,
+#Hiraya,
+#bayani,
+#MathDali,
+#Wikaharian,
+#heal,
+#abs,
+#super,
+#fit,
+#swak,
+#team,
+#pop,
+#bean,
+#Show,
+#Blockbusters,
+#withYou,
+#Kabayan,
+#Radyo,
+#Sakto{
+	background-repeat:no-repeat;
+	background-size:100% 100%;
+	height:100%;
+	width:100%;
+	font-weight:bold;
+	text-height:3rem;
+	font-size:1.5rem;
+	text-shadow:1px 1px 1px #1D224C;
+}
+
+
+
+

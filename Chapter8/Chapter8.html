@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+
+	<html lang="en">
+		<head>
+			<meta name="viewport" content="width=device-width,initial-scale=1.0" />
+			<meta name="author" content="Judah Ben-Hur Ebio" />
+			<meta charset="utf-8" />
+			<title>Form</title>
+			<link rel="stylesheet" href="styles.css" />
+		</head>
+		
+		<body>
+			<header>
+				<h1 align="center"><u>REQUIREMENTS</u></h1>
+			</header>
+			
+			<main>
+				<form method="post" action="chapter8.html">
+				<div class="twoFormWrapper">
+				
+					<fieldset class="fieldOne">
+						<legend><h2>Basic Information</h2></legend>
+						<label>Last Name: </label><input name="lastName" type="text" required>
+						<label>First Name: </label><input name="firstName" type="text" required>
+						<label>Middle Name: </label><input name="middleName" type="text" required>
+						<label>BirthDay: </label><input name="birthday" type="date" required>
+						<label>Birth Place: </label><input name="text" type="address" required>
+						<label>Gender</label><br />
+						<select>
+							<option value="male">Male</option>
+							<option value="famale">Female</option>
+						</select><br />
+						Profile Picture<input type="file" required>
+					<span class="button">
+						<input type="reset" class="reset"/>
+						<input type="submit" class="submit"/>
+					</span>
+
+					</fieldset>
+				</form>
+			
+			</main>
+			
+		</body>
+	</html>

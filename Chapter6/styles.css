@@ -1,0 +1,378 @@
+*{
+	padding:0;
+	margin:0;
+	box-sizing:border-box;
+	color:white;
+}
+
+body{
+	background:#1D224C;	
+	display:flex;
+	flex-direction:column;
+	width:100%;
+}
+
+.navigationWrapper{
+	position:sticky;
+	top:0px;
+	z-index:1;
+	background:white;
+}
+
+.navigationWrapper ul{
+	display:flex;
+	width:80%;
+	margin-right:10%;
+	margin-left:10%;
+	justify-content:space-between;
+	font-weight:bold;
+
+}
+
+.navigationWrapper ul li{
+	list-style:none;
+	font-size:1.3rem;
+	display:inline-block;
+	justify-content:space-between;
+	padding:1rem 0px;
+}
+
+.navigationWrapper ul li a:hover{
+	color:red;
+}
+
+.navigationWrapper ul li a{
+	text-decoration:none;
+	color:#1D224C;
+	
+}
+
+.contentWrapper{
+	width:100%;
+	height:100%;
+	display:flex;
+	flex-wrap:wrap;
+	margin-top:3%;
+	font-size:3rem;
+	justify-content:center;
+	align-items:center;
+	flex-direction:column;
+}
+
+figure{
+	width:90%;
+	margin:0 auto;
+	display:flex;
+	justify-content:space-around;
+	flex-direction:row;
+	flex-wrap:wrap;
+}
+
+.imgBox{
+	margin-right:3%;
+	margin-left:3%;
+	width:20rem;
+	height:15rem;
+	margin:1%;
+}
+
+/* Images */
+
+/* China */
+
+#greatWallofChina::before{
+	content:"Great Wall Of China";
+	color:#1D224C;
+	font-size:1.5rem;
+	display:flex;
+	justify-content:center;
+	font-weight:bold;
+	background:rgba(250,250,250,.5);
+	cursor:pointer;
+}
+#greatWallofChina:hover::before{
+	content:"The Great Wall of China-(traditional Chinese: 萬里長城; simplified Chinese: 万里长城; pinyin: Wànlǐ Chángchéng) is a series of fortifications that were built across the historical northern borders of ancient Chinese states and Imperial China as protection against various nomadic groups from the Eurasian Steppe. Several walls were built from as early as the 7th century BC, with selective stretches later joined together by Qin Shi Huang (220–206 BC), the first emperor of China. Little of the Qin wall remains.";
+	font-size:.8rem;
+	background:rgba(250,250,250,.8);
+	height:100%;
+	width:100%;
+	display:flex;
+	justify-content:center;
+	align-items:center;
+}
+
+#greatWallofChina{
+	background:url(../Images/greatWallOfChina.jpg);
+}
+
+/* Philippines */
+
+#riceTerracesOfThePhilippines::before{
+	content:"Rice Terraces In The Philippines";
+	color:#1D224C;
+	font-size:1.5rem;
+	display:flex;
+	justify-content:center;
+	text-align:center;
+	font-weight:bold;
+	background:rgba(250,250,250,.5);
+	cursor:pointer;
+}
+
+#riceTerracesOfThePhilippines{
+	background:url(../Images/riceTerracesOfthePhilippines.jpg);
+}
+
+#riceTerracesOfThePhilippines:hover::before{
+	content:"Banaue rice terraces, system of irrigated rice terraces in the mountains of north-central Luzon, Philippines, that were created more than 2,000 years ago by the Ifugao people. Although located in several villages, they are collectively known as the Banaue rice terraces. In 1995 various sections of the terraces were designated a UNESCO World Heritage site, described as “a living cultural landscape of unparalleled beauty.”";
+	font-size:.8rem;
+	background:rgba(250,250,250,.8);
+	height:100%;
+	width:100%;
+	display:flex;
+	justify-content:center;
+	align-items:center;
+}
+
+/* indonesia */
+
+#baliIndonesia{
+	background:url(../Images/baliIndonesia.jpg);
+}
+
+#baliIndonesia::before{
+	content:"Bali Indonesia";
+	color:#1D224C;
+	font-size:1.5rem;
+	display:flex;
+	justify-content:center;
+	text-align:center;
+	font-weight:bold;
+	background:rgba(250,250,250,.5);
+	cursor:pointer;
+}
+
+#baliIndonesia:hover::before{
+	content:"Bali (/ˈbɑːli/) is a province of Indonesia and the westernmost of the Lesser Sunda Islands. East of Java and west of Lombok, the province includes the island of Bali and a few smaller neighbouring islands, notably Nusa Penida, Nusa Lembongan, and Nusa Ceningan. The provincial capital, Denpasar, is the most populous city in the Lesser Sunda Islands and the second-largest, after Makassar, in Eastern Indonesia. Bali is Indonesia's main tourist destination, with a significant rise in tourism since the 1980s.";
+	font-size:.8rem;
+	background:rgba(250,250,250,.8);
+	height:100%;
+	width:100%;
+	display:flex;
+	justify-content:center;
+	align-items:center;
+}
+
+/* europe */
+
+/* France */
+
+#eiffelTowerOfFrance{
+	background:url(../Images/eiffelTowerOfFrance.jpg);
+}
+
+#eiffelTowerOfFrance::before{
+	content:"Eiffel Tower In France";
+	color:#1D224C;
+	font-size:1.5rem;
+	display:flex;
+	justify-content:center;
+	text-align:center;
+	font-weight:bold;
+	background:rgba(250,250,250,.5);
+	cursor:pointer;
+}
+
+#eiffelTowerOfFrance:hover::before{
+	content:"The Eiffel Tower (/ˈaɪfəl/ EYE-fəl; French: tour Eiffel [tuʁ‿ɛfɛl] (About this soundlisten)) is a wrought-iron lattice tower on the Champ de Mars in Paris, France. It is named after the engineer Gustave Eiffel, whose company designed and built the tower..";
+	font-size:.8rem;
+	background:rgba(250,250,250,.8);
+	height:100%;
+	width:100%;
+	display:flex;
+	justify-content:center;
+	align-items:center;
+}
+
+/* England */
+
+#StonehengeEngland{
+	background:url(../Images/StonehengeEngland.jpg);
+}
+
+#StonehengeEngland::before{
+	content:"Stone Henge In England";
+	color:#1D224C;
+	font-size:1.5rem;
+	display:flex;
+	justify-content:center;
+	text-align:center;
+	font-weight:bold;
+	background:rgba(250,250,250,.5);
+	cursor:pointer;
+}
+
+#StonehengeEngland:hover::before{
+	content:"Stonehenge is a prehistoric monument on Salisbury Plain in Wiltshire, England, two miles (3 km) west of Amesbury. It consists of an outer ring of vertical Sarsen standing stones, each around 13 feet (4.0 m) high, seven feet (2.1 m) wide, and weighing around 25 tons, topped by connecting horizontal lintel stones. Inside is a ring of smaller bluestones. Inside these are free-standing trilithons, two bulkier vertical Sarsens joined by one lintel. The whole monument, now ruinous, is oriented towards the sunrise on the Summer solstice.";
+	font-size:.8rem;
+	background:rgba(250,250,250,.8);
+	height:100%;
+	width:100%;
+	display:flex;
+	justify-content:center;
+	align-items:center;
+}
+
+/* Switzerland */
+
+#TheMatterhornSwitzerland{
+	background:url(../Images/TheMatterhornSwitzerland.jpg);
+}
+
+#TheMatterhornSwitzerland::before{
+	content:"The Matterhorn In Switzerland";
+	color:#1D224C;
+	font-size:1.5rem;
+	display:flex;
+	justify-content:center;
+	text-align:center;
+	font-weight:bold;
+	background:rgba(250,250,250,.5);
+	cursor:pointer;
+}
+
+#TheMatterhornSwitzerland:hover::before{
+	content:"The Matterhorn was studied by Horace-Bénédict de Saussure in the late eighteenth century, who was followed by other renowned naturalists and artists, such as John Ruskin, in the 19th century. It remained unclimbed after most of the other great Alpine peaks had been attained and became the subject of an international competition for the summit.";
+	font-size:.8rem;
+	background:rgba(250,250,250,.8);
+	height:100%;
+	width:100%;
+	display:flex;
+	justify-content:center;
+	align-items:center;
+}
+
+/* America */
+
+/* mount rushmore */
+
+#mountRushmore{
+	background:url(../Images/mountRushmore.jpg);
+}
+
+#mountRushmore::before{
+	content:"Mount Rushmore";
+	color:#1D224C;
+	font-size:1.5rem;
+	display:flex;
+	justify-content:center;
+	text-align:center;
+	font-weight:bold;
+	background:rgba(250,250,250,.5);
+	cursor:pointer;
+}
+
+#mountRushmore:hover::before{
+	content:"Mount Rushmore National Memorial is centered on a colossal sculpture carved into the granite face of Mount Rushmore in the Black Hills in Keystone, South Dakota. Sculptor Gutzon Borglum created the sculpture's design and oversaw the project's execution from 1927 to 1941 with the help of his son, Lincoln Borglum. The sculpture features the 60-foot (18 m) heads of Presidents George Washington (1732–1799), Thomas Jefferson (1743–1826), Theodore Roosevelt (1858–1919) and Abraham Lincoln (1809–1865), as recommended by Borglum";
+	font-size:.8rem;
+	background:rgba(250,250,250,.8);
+	height:100%;
+	width:100%;
+	display:flex;
+	justify-content:center;
+	align-items:center;
+}
+
+/* whiteHouse */
+
+#whiteHouse{
+	background:url(../Images/whiteHouse.jpg);
+}
+
+#whiteHouse::before{
+	content:"White House In Washington D.C";
+	color:#1D224C;
+	font-size:1.5rem;
+	display:flex;
+	justify-content:center;
+	text-align:center;
+	font-weight:bold;
+	background:rgba(250,250,250,.5);
+	cursor:pointer;
+}
+
+
+#whiteHouse:hover::before{
+	content:"The White House is the official residence and workplace of the president of the United States. It is located at 1600 Pennsylvania Avenue NW in Washington, D.C., and has been the residence of every U.S. president since John Adams in 1800. The term \"white house\" is often used as a metonym for the president and their advisers.";
+	font-size:.8rem;
+	background:rgba(250,250,250,.8);
+	height:100%;
+	width:100%;
+	display:flex;
+	justify-content:center;
+	align-items:center;
+}
+
+/* niagaraFallsCanada */
+
+#niagaraFallsCanada{
+	background:url(../Images/niagaraFallsCanada.jpg);
+}
+
+#niagaraFallsCanada::before{
+	content:"Niagara Falls In Canada";
+	color:#1D224C;
+	font-size:1.5rem;
+	display:flex;
+	justify-content:center;
+	text-align:center;
+	font-weight:bold;
+	background:rgba(250,250,250,.5);
+	cursor:pointer;
+}
+
+#niagaraFallsCanada:hover::before{
+	content:"Niagara Falls is a city in Ontario, Canada. It is on the western bank of the Niagara River in the Golden Horseshoe region of Southern Ontario, with a population of 88,071 at the 2016 census.[1] It is part of the St. Catharines - Niagara Census Metropolitan Area (CMA). Incorporated on 12 June 1903, the city is across the river from Niagara Falls, New York. The Niagara River flows over Niagara Falls at this location, creating a natural spectacle which attracts millions of tourists each year.";
+	font-size:.8rem;
+	background:rgba(250,250,250,.8);
+	height:100%;
+	width:100%;
+	display:flex;
+	justify-content:center;
+	align-items:center;
+}
+
+/* similarity */
+
+#greatWallofChina:hover,
+#riceTerracesOfThePhilippines:hover,
+#baliIndonesia:hover,
+#eiffelTowerOfFrance:hover,
+#StonehengeEngland:hover,
+#TheMatterhornSwitzerland:hover,
+#mountRushmore:hover,
+#whiteHouse:hover,
+#niagaraFallsCanada:hover{
+	transform:rotateY(360deg);
+	transition:all 1s ease-in;
+	box-shadow:none;
+	border-radius:0;
+}
+
+#greatWallofChina,
+#riceTerracesOfThePhilippines,
+#baliIndonesia,
+#eiffelTowerOfFrance,
+#StonehengeEngland,
+#TheMatterhornSwitzerland,
+#mountRushmore,
+#whiteHouse,
+#niagaraFallsCanada{
+	border-radius:10%;
+	overflow:hidden;
+	background-size:100% 100%;
+	background-repeat:no-repeat;
+	box-shadow:3px 3px 10px rgba(0,0,0,.9);
+}
+
+
